@@ -331,7 +331,7 @@ int main(int argc, char *argv[]) {
 	FILE *inf;
 	int width=0, height=0, iteration=1, i;
 	char roomArray[DIMENSION][DIMENSION]={{}};
-	inf = fopen("room", "r");//open room file
+	inf = fopen("sample_in_2", "r");//open room file
 	if (inf == NULL) {
 		perror("Can't open the file room\n");
 		exit(1);
